@@ -3,3 +3,75 @@
 
 # Ignore all .exe files
 *.exe
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules folder for Node.js projects
+node_modules/
+
+# Ignore log files and temp files
+*.log
+*.tmp
+*.out
+*.pid
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Java class files and JAR files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore compiled C++ object files
+*.o
+*.obj
+
+# Ignore compiled binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore database and SQL files
+*.sqlite
+*.db
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+*.suo
+*.user
+*.rsuser
+*.sln
+*.swp
+
+# Ignore build output directories
+dist/
+build/
+out/
+target/
+
+# Ignore version control directories
+.svn/
+.hg/
+.cvs/
+
+# Ignore system-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
