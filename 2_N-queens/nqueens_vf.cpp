@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-using namespace std;
+using namespace std; 
 
 void printBoard(int queenPositions[], int n) {
     cout << "   ";
