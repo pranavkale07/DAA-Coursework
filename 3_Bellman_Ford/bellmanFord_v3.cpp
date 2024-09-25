@@ -1,15 +1,13 @@
+// v3: Added code to print path with shortest distance to each node
+
 #include<bits/stdc++.h>
-#include <Windows.h>
 using namespace std;
 
 void printDistance(vector<int> &dist){
     int n = dist.size();
     for(int i=0; i<n; i++){
         if(dist[i] == INT_MAX){
-            // cout << "\u221E" << " ";
-            SetConsoleOutputCP(CP_UTF8);
-            printf(u8"\u221E");
-            printf(" ");
+            cout << "\u221E" << " ";    // infinity symbol
         }
         else{
             cout << dist[i] << " ";

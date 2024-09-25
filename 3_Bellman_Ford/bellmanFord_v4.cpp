@@ -1,15 +1,16 @@
+// v4: Display the path in correct order
+
 #include<bits/stdc++.h>
-#include <Windows.h>
 using namespace std;
 
 void printDistance(vector<int> &dist){
     int n = dist.size();
     for(int i=0; i<n; i++){
         if(dist[i] == INT_MAX){
-            // cout << "\u221E" << " ";
-            SetConsoleOutputCP(CP_UTF8);
-            printf(u8"\u221E");
-            printf(" ");
+            cout << "\u221E" << " ";    // infinity symbol
+            // SetConsoleOutputCP(CP_UTF8);
+            // printf(u8"\u221E");
+            // printf(" ");
         }
         else{
             cout << dist[i] << " ";
@@ -96,6 +97,8 @@ int main(){
 
 
 /*
+TESTCASES:
+
 1)
 {{0,1,6}, {0,2,4}, {0,3,5}, {1,4,-1}, {2,1,-2}, {2,4,3}, {3,2,-2}, {3,5,-1}, {4,5,3}}
 

@@ -75,3 +75,10 @@ Desktop.ini
 *.tar.gz
 *.rar
 *.7z
+
+#ignore input.txt and output.txt files
+input.txt
+output.txt
+
+#ignore temporary cpp files
+temp.cpp

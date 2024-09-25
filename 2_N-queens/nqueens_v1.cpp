@@ -4,7 +4,7 @@ using namespace std;
 void printBoard(int queenPositions[], int n) {
     cout << "   ";
     for (int col = 0; col < n; ++col) {
-        cout << "\033[4m" << col + 1 << " \033[0m";  // Underline digit and space
+        cout << col + 1 << " ";
     }
     cout << endl;
 

@@ -4,7 +4,7 @@ using namespace std;
 void printBoard(int queenPositions[], int n) {
     cout << "   ";
     for (int col = 0; col < n; ++col) {
-        cout << "\033[4m" << col + 1 << " \033[0m";  // Underline digit and space
+        cout << col + 1 << " ";  
     }
     cout << endl;
 
@@ -24,7 +24,7 @@ void printBoard(int queenPositions[], int n) {
 void displayMirror(int queenPositions[], int n) {
     cout << "   ";
     for (int col = 1; col <= n; ++col) {
-        cout << "\033[4m" << col << " \033[0m";  // Underline digit and space
+        cout << col << " ";
     }
     cout << endl;
 
@@ -77,7 +77,7 @@ void nqueens(int currQueen, int n, int queenPositions[]){
 
 int main(){
     int n;
-    cout<<"Enter no. of queens: ";
+    // cout<<"Enter no. of queens: ";
     cin>>n;
 
     if(n<4){
@@ -85,6 +85,7 @@ int main(){
         return 0;
     }
     int queenPositions[n+1] = {0};
+    cout << "Trying to place queens" << endl;
     nqueens(1, n, queenPositions);
 
     // for(int i=1; i<=n; i++){
