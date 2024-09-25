@@ -8,9 +8,6 @@ void printDistance(vector<int> &dist){
     for(int i=0; i<n; i++){
         if(dist[i] == INT_MAX){
             cout << "\u221E" << " ";    // infinity symbol
-            // SetConsoleOutputCP(CP_UTF8);
-            // printf(u8"\u221E");
-            // printf(" ");
         }
         else{
             cout << dist[i] << " ";
