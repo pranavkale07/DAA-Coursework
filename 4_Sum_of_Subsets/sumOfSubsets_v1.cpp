@@ -1,4 +1,4 @@
-// v1: storing all valid subsets (not just printing them)
+// v1: storing all valid subsets (not just printing them) 
 
 #include <iostream>
 #include <vector>
