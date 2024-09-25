@@ -80,5 +80,5 @@ Desktop.ini
 input.txt
 output.txt
 
-#ignore temporary cpp files
+#ignore my temporary cpp files
 temp.cpp
